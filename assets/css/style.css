@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+}
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a, a:hover {
+    text-decoration: none;
+    color: black;
+}
+img {
+    vertical-align: middle;
+}
+ul li a{
+    color: white;
+}
+:root {
+    --primary_color: #fbdb00;
+    --secondary_color: #010101;
+}
+/* common css end */
+
+/* navigation bar start  */
+.navbar{
+    background: var(--primary_color);
+}
+.navbar ul li a{
+    color: #000;
+    font-weight: 600;
+    padding: 0 50px;
+    display: block;
+}
+.hero-part-main{
+    background: var(--primary_color);
+}
+/* .hero-con img{
+    padding-left: 30%;
+} */
+/* navigation part end  */
+
+/* hero part start  */
+.carousel-indicators button {
+    height: 10px !important;
+    width: 10px !important;
+    margin: 0 10px !important;
+    border-radius: 100%;
+    background-color: #fff !important;
+}
+.hero-con h1{
+    font-size: 3rem;
+}
+.hero-icons i{
+    padding-right: 20px;
+    font-size: 25px;
+}
+.hero-con{
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+/* hero part end  */
+
+/* features part start  */
+.feat-con{
+    padding-left: 20px;
+}
+.feat-icon{
+    font-size: 30px;
+}
+/* features part end  */
+
+/* contact part start  */
+.contact-con-main{
+    background: #010101;
+}
+.input-btn{
+    display: flex;
+    padding-top: 30px;
+}
+.btn-warning{
+    background: var(--primary_color);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.contact-icons i{
+    color: var(--primary_color);
+    padding-left: 20px;
+    font-size: 25px;
+}
+/* contact part end  */
+
+/* footer part start  */
+.footer-con-main{
+    background: var(--secondary_color);
+    padding-top: 50px;
+}
+.footer-con p{
+    margin-bottom: 0;
+}
+.footer-con ul li a:hover{
+    color: #fff;
+}
+/* footer part end  */
